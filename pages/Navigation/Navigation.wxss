@@ -1,0 +1,304 @@
+/*
+  页面头部布局
+*/
+.img_src {
+  flex-direction: column;
+  font-size: 10px;
+  width: 20px;
+}
+
+.Parking_space {
+  flex-direction: column;
+  font-size: 10px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.The_next_day {
+  font-size: 10px;
+  margin-left: 260px;
+  margin-top: -13px;
+  color: rgb(0, 191, 255);
+  display: flex;
+  float: right;
+}
+
+.background_color {
+  background-color: 	Lavender;
+  border: 5px solid Lavender;
+}
+
+.The_next_day2 {
+  font-size: 12px;
+  color: rgb(0, 191, 255);
+  margin-left: 10px;
+}
+
+/*
+  请输入泊位编号部分
+*/
+.content_sd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rpx;
+  
+}
+
+.input_boxx {
+  width: 110rpx;
+  height: 110rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.input_boxx2 {
+  width: 0;
+  height: 0;
+}
+
+/*
+  按钮样式
+*/
+.btn_a {
+  width: 90%;
+  height: 40%;
+  align-content: center;
+  background-color:rgb(0, 191, 255);
+  border-radius: 40rpx;
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  color: aliceblue;
+  margin-left: 50rpx;
+}
+
+.btn_s {
+  width: 100%;
+  height: 100px;
+  align-content: center;
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  line-height: 40px;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+/*
+  input框失焦，和聚焦 颜色变化样式
+*/
+.hui{
+  background: #a5a5a5;
+}
+.bluee{
+  background: #007aff;
+}
+
+/*
+  购买停车时长，计时器部分样式
+*/
+.text_card {
+  display: flex;
+  font-size: 12px;
+  margin-left: 10px;
+  color: rgb(0, 191, 255);
+}
+
+.countTime {
+  height: 200px;
+  font-size: 30px;
+  line-height: 200px;
+  text-align: center;
+}
+
+/*时  计时*/
+.top1_s{
+  display: flex;
+  width: 15%;
+  height: 150rpx;
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  align-items: center;  
+}
+  
+.buttom1_s{
+  display: flex;
+  width: 15%;
+  height: 150rpx;
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  align-items: center;  
+}
+
+.text1_s{
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  align-items: center;  
+}
+
+.text1_s_s{
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  align-items: center;  
+  margin-left: 20px;
+  margin-top: -40rpx;
+}
+
+.Sh_s{
+  width: 100%;
+  height: 100%;
+  margin-left: 140rpx;
+}
+
+.ww{
+  width: 100px;
+  height: 100px;
+}
+
+.wo {
+  width: 100px;
+  height: 100px;
+}
+
+.px_s {
+  height: 200px;
+  width: 200px;
+  border: 1px solid rgb(0, 191, 255);
+  text-align:center;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+
+.p_s {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid rgb(0, 191, 255);
+  margin-top: 60px;
+}
+
+.p_s2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid rgb(0, 191, 255);
+  margin-top: -102px;
+  margin-left: 102px;
+}
+
+.text2 {
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  align-items: center;
+
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.jian {
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+  margin-bottom: -5px;
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  align-items: center;  
+  margin-left: 40px;
+}
+
+.jia {
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  align-items: center;  
+  width: 15px;
+  height: 15px;
+  margin-bottom: -5px;
+  margin-left: 40px;
+}
+
+.divLine{
+  display: flex;
+  background: rgb(0, 191, 255);
+  width: 100%;
+  height: 1rpx;
+  margin-top: 10px;
+ }
+
+ .divLine2{
+  display: flex;
+  background: rgb(0, 191, 255);
+  width: 100%;
+  height: 1px;
+  margin-top: 20px;
+ }
+
+ .zong {
+   width: 64%;
+   height: 70%;
+   color: rgb(0, 191, 255);
+   
+   margin-left: 50px;
+ } 
+/*分 计时*/
+.top2_s{
+  display: flex;
+  width: 15%;
+  height: 150rpx;
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  align-items: center;  
+  
+}
+
+.buttom2_s{
+  display: flex;
+  width: 15%;
+  height: 150rpx;
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  align-items: center;  
+}
+
+.text2_s{
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  align-items: center;  
+}
+
+.text2_s_s{
+  flex-direction: column;        /*元素的排列方向为垂直*/
+  justify-content: center;    /*水平居中对齐*/
+  align-items: center;  
+  margin-top: -40rpx;
+  margin-left: 70rpx;
+}
+
+.div_s{
+  width: 100%;
+  height: 100%;
+  margin-left: 440rpx;
+  margin-top: -350rpx;
+}
+
+.kp {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 1px;
+  border: 1px solid rgb(0, 191, 255)
+}
+
+/*应付停车费用*/
+.k {
+  display: flex;
+  margin-left: 480rpx;
+  font-size: 30rpx;
+}
+
+
+
+

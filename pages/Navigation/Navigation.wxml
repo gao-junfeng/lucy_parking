@@ -1,0 +1,73 @@
+<view class="Header_top">
+    <view class=".background_color">
+      <image class="img_src" src="/images/loca.png"  mode='widthFix'></image>
+      <view class="Parking_space">附近泊车位</view>
+      <view class="The_next_day">次日续时></view>
+    </view>
+
+    <view>
+      <view class="The_next_day2">请输入泊位编号</view>
+      <form bindsubmit="formSubmit">
+        <view class="content_sd">
+          <block wx:for="{{length}}" wx:key="item"> 
+            <input class="input_boxx" value="{{content_d.length>=index+1?content_d[index]:''}}" disabled password='{{is_ps}}' type="number" catchtap='Tap_d'></input>
+          </block>
+        </view>
+         <input name="password" password="{{true}}" class="input_boxx2" maxlength="{{length}}"        focus="{{isFocus_s}}"  bindinput="Focus_d" type="number"/>
+              <view class="">
+            <view class="text_card">购买停车时长</view>
+           <!--<view class="countTime">{{timecount}}</view>--> 
+          
+        <!-- <view class="zong">
+           <view class="p_s">
+              <image class = "jia" bindtap="jishu" src="/images/jia.png"></image>
+              <text class="divLine"></text>
+              <view class="text2">{{index}}小时</view>
+              <text class="divLine2"></text>
+              <image class="jian"  bindtap="jishu2" src="/images/jian.png"></image>
+            </view>
+
+            <view class="p_s2">
+              <image class = "jia" bindtap="jishu3" src="/images/jia.png"></image>
+              <text class="divLine"></text>
+              <view class="text2">{{index}}分钟</view>
+              <text class="divLine2"></text>
+              <image class="jian"  bindtap="jishu4" src="/images/jian.png"></image>
+            </view>
+        </view> -->
+             <!-- <view>{{index+1}}</view>
+            <button bindtap="jishu">计数</button>
+            <button bindtap="jishu2">计数s</button> -->
+      <view class="kp">
+        <view class="Sh_s">
+             <image class="top1_s" bindtap="jishu" src="/images/top1.png"></image>
+             <view class="text1_s">{{index}}小时</view>
+             <image class="buttom1_s" bindtap="jishu2" src="/images/buttom1.png"></image>
+          </view>
+         
+          <view class="div_s">
+            <image class="top2_s" bindtap="jishu3" src="/images/top1.png"></image>
+             <view class="text2_s">{{index2}}分钟</view>
+             <image class="buttom2_s" bindtap="jishu4" src="/images/buttom1.png"></image>
+          </view>
+
+      </view>
+         <view class="k">
+            <view>应付停车费用：</view>
+            <view>{{}}</view>
+          </view>
+     </view>
+        <view class="btn_s">
+             <view class="btn_a" form-type="submit" bindtap="start">确定</view>
+        </view>
+      </form>
+    </view>
+</view>
+
+<!--
+  <view class="body_Middle">
+    <view>购买停车时长</view>
+    <view></view>
+    <view>应付停车费用：</view>
+  </view>
+-->

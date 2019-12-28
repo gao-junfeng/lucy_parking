@@ -1,0 +1,159 @@
+<form reportSubmit bindsubmit="submitFormId">
+  <view class="header">
+    <view class="user" hoverClass="none">
+      <view class="user_box">
+        <view class="logo" >
+          <image src="{{userInfo.avatarUrl}}"></image>
+          <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+  <!-- 功能列表 -->
+  <view class="nav">
+    <view bindtap="openPage" class="item" data-url="/pages/my_course/my_course" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-news icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src="/images/balance.png"></image>
+        <text>账户安全</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view>
+    <view bindtap="openPage" class="item" data-url="/pages/collect/collect" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-favor icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src="/images/balance.png"></image>
+        <text>个人资料</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view>
+    <!-- <view bindtap="openPage" class="item" data-url="/pages/wallet/wallet" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-moneybag icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <text>我的钱包</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view> -->
+    <!--  -->
+    <view bindtap="openPage" class="item" data-url="/pages/purchase_history/purchase_history" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-form icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src="/images/balance.png"></image>
+        <text>车辆信息</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view>
+    <view bindtap="openPage" class="item" data-url="/pages/about/about" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-info icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src="/images/balance.png"></image>
+        <text>停车泊位示意图</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view>
+    <view bindtap="openPage" class="item" data-url="/pages/about/about" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-info icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src="/images/balance.png"></image>
+        <text>次日续时</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view>
+    <!-- <view bindtap="openPage" class="item" data-url="/pages/advice/advice" formType="submit" hoverClass="none">
+      <view class='wallet'><text class='icon-deit icon'></text><text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text><text>意见反馈</text></view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view> -->
+    <view bindtap="openPage" class="item" data-url="/pages/about/about" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-info icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src="/images/balance.png"></image>
+        <text>泊位搜索</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view>
+    
+    <view bindtap="openPage" class="item" data-url="/pages/about/about" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-info icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src="/images/balance.png"></image>
+        <text>账单明细</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view>
+    
+     <view bindtap="openPage" class="item" data-url="/pages/about/about" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-info icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src="/images/balance.png"></image>
+        <text>发票记录申请</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view>
+
+    <view bindtap="openPage" class="item" data-url="/pages/about/about" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-info icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src="/images/balance.png"></image>
+        <text>收费规则</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view>
+
+    <view bindtap="openPage" class="item" data-url="/pages/about/about" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-info icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src="/images/balance.png"></image>
+        <text>问卷调查</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view>
+
+   <view bindtap="openPage" class="item" data-url="/pages/about/about" formType="submit" hoverClass="none">
+      <view class='wallet'>
+        <text class='icon-info icon'></text>
+        <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+        <image src="/images/balance.png"></image>
+        <text>路边停车体验条框</text>
+      </view>
+      <view class="icon">
+        <text class='icon-right'></text>
+      </view>
+    </view>
+  </view>
+</form>

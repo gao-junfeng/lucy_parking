@@ -1,0 +1,62 @@
+{
+  "enablePullDownRefresh": false,
+  "pages": [
+    "pages/Navigation/Navigation",
+    "pages/index/index",
+    "pages/tab_one/tab_one",
+    "pages/demo/demo",
+    "pages/logs/logs",
+    "pages/tab2/tab2",
+    "pages/tab3/tab3",
+    "pages/tab4/tab4"
+  ],
+  "window": {
+    
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  ,"permission":{
+    "scope.userLocation":{
+      "desc":"你的位置信息将用于小程序位置接口的"
+    }
+  }
+  ,"tabBar": {
+    "backgroundColor": "#fff",
+    "color": "black",
+    "selectedColor": "black",
+    "list": [
+      
+      {
+      
+      "text": "微信停车",
+      "iconPath": "images/card.png",
+      "selectedIconPath": "images/card.png",
+      "pagePath": "pages/Navigation/Navigation"
+    },
+    {
+    
+      "text": "余额充值",
+      "iconPath": "images/balance.png",
+      "selectedIconPath": "images/balance.png",
+      "pagePath": "pages/tab2/tab2"
+    },
+    {
+      
+      "text": "停车记录",
+      "iconPath": "images/Parking.png",
+      "selectedIconPath": "images/Parking.png",
+      "pagePath": "pages/tab3/tab3"
+    },
+    {
+      
+      "text": "个人中心",
+      "iconPath": "images/Personal Center.png",
+      "selectedIconPath": "images/Personal Center.png",
+      "pagePath": "pages/demo/demo"
+    }]
+  }
+}
