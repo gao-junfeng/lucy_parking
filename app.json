@@ -2,8 +2,8 @@
   "enablePullDownRefresh": false,
   "pages": [
     "pages/Navigation/Navigation",
-    "pages/index/index",
     "pages/tab_one/tab_one",
+    "pages/index/index",
     "pages/demo/demo",
     "pages/logs/logs",
     "pages/tab2/tab2",

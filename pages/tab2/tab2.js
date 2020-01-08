@@ -49,6 +49,12 @@ Page({
       })
   },
   showrechargepicker:function(){
+    wx.navigateTo({
+      url: '/pages/tab_one/tab_one',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
     if (this.data.recharging == true)
     {
       wx.showToast({

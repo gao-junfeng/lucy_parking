@@ -9,9 +9,9 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
-  ontop:function(){
+  ontop: function(){
     wx.navigateTo({
-      url: '../demo/demo', 
+      url: '../Navigation/Navigation', 
       success: function(res) {},
       fail: function(res) {},
       complete: function(res) {},
@@ -52,6 +52,7 @@ Page({
     }
   },
   getUserInfo: function(e) {
+    console.log('登录打印信息如下')
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({

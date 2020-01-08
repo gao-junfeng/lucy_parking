@@ -7,7 +7,7 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="bar-area" bindtap="ontop">嘻嘻嘻
+  <view class="bar-area" bindtap="ontop">中科车港
   <!--
 <navigator url="/pages/demo/demo" hover-class="navigator-hover" title=navigate">跳转test页面</navigator>
   -->

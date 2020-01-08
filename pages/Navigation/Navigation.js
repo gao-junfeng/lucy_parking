@@ -50,8 +50,15 @@ Page({
   jishu: function () {
     var that = this;
       this.setData({ index: that.data.index + 1 });
-    
+  },
 
+  Dingwei: function(){
+    wx.navigateTo({
+      url: '/pages/index/index',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   },
   start:function(){
     clearInterval(init);

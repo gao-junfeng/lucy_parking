@@ -3,9 +3,9 @@ var wxMarkerData = [];
 Page({ 
   data: { 
       markers: [], 
-      latitude: '', 
-      longitude: '', 
-      placeData: {} 
+      latitude: '',     //经度
+      longitude: '',    //纬度
+      placeData: {}     
   }, 
   makertap: function(e) { 
       var that = this; 
@@ -28,7 +28,7 @@ Page({
               markers: wxMarkerData 
           }); 
           that.setData({ 
-              latitude: wxMarkerData[0].latitude 
+              latitude: wxMarkerData[0].latitude,
           }); 
           that.setData({ 
               longitude: wxMarkerData[0].longitude 
@@ -42,7 +42,7 @@ Page({
           // 此处需要在相应路径放置图片文件 
           iconPath: '../../img/marker_red.png', 
           // 此处需要在相应路径放置图片文件 
-          iconTapPath: '../../img/marker_red.png' 
+          iconTapPath: '../../img/marker_red.png'
       }); 
   }, 
   showSearchInfo: function(data, i) { 
@@ -51,7 +51,8 @@ Page({
           placeData: { 
               title: '名称：' + data[i].title + '\n', 
               address: '地址：' + data[i].address + '\n', 
-              telephone: '电话：' + data[i].telephone 
+              telephone: '电话：' + data[i].telephone  + '\n'
+             
           } 
       }); 
   }, 

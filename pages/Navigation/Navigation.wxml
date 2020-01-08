@@ -1,7 +1,7 @@
 <view class="Header_top">
     <view class=".background_color">
       <image class="img_src" src="/images/loca.png"  mode='widthFix'></image>
-      <view class="Parking_space">附近泊车位</view>
+      <view class="Parking_space" bindtap="Dingwei">附近泊车位</view>
       <view class="The_next_day">次日续时></view>
     </view>
 
